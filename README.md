@@ -5,13 +5,13 @@ Not surprisingly, this repository contains my Vim configuration files.
 1. Clone this repository.
 
    ```
-   git clone https://github.com/campesel/dotvim.git ~/.dotfiles
+   git clone https://github.com/campesel/dotvim.git ~/.dotvim
    ```
 
 2. Create a symlink to `vimrc`.
 
    ```
-   ln -s ~/.dotfiles/vimrc ~/.vimrc
+   ln -s ~/.dotvim/vimrc ~/.vimrc
    ```
 
 3. Clone [Vundle](https://github.com/VundleVim/Vundle.vim).
