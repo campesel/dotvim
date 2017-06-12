@@ -1,7 +1,16 @@
 # About
 Not surprisingly, this repository contains my Vim configuration files.
 
-# Installation
+# Install via script
+1. Clone this repository.
+
+   ```
+   git clone https://github.com/campesel/dotvim.git ~/.dotvim
+   ```
+
+2. Run `install.sh`.
+
+# Manual installation
 1. Clone this repository.
 
    ```
