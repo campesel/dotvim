@@ -82,6 +82,9 @@ nnoremap <C-L> <C-W>l
 
 " Pressing <Tab> moves the cursor to the next split
 nnoremap <Tab> <C-W><C-W>
+
+" Toggle spell checking on and off
+nnoremap <silent> <Leader>s :set spell!<CR>
 " }}}
 
 " Searching {{{
