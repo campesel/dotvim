@@ -68,6 +68,9 @@ set wildmenu
 " }}}
 
 " Mappings {{{
+" Set <Leader> to <Space>
+let mapleader = " "
+
 " Switch to Normal mode by pressing j twice
 inoremap jj <Esc>
 
