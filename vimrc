@@ -80,7 +80,7 @@ set incsearch
 set ignorecase
 
 " Use case-sensitive search if search pattern contains upper case characters
-set smartcase 
+set smartcase
 " }}}
 
 " Splits {{{
