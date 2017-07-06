@@ -98,7 +98,12 @@ set ignorecase
 set smartcase
 " }}}
 
+" Spelling {{{
+" Use British English for spell checking
+set spelllang=en_gb
+" }}}
 
+" Splits {{{
 " Natural split opening
 set splitbelow
 set splitright
