@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
+Plugin 'vim-airline/vim-airline'
 Plugin 'jnurmine/Zenburn'
 
 " Required
