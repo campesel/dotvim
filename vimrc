@@ -70,6 +70,15 @@ set wildmenu
 " Mappings {{{
 " Switch to Normal mode by pressing j twice
 inoremap jj <Esc>
+
+" Easy split navigation
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+
+" Pressing <Tab> moves the cursor to the next split
+nnoremap <Tab> <C-W><C-W>
 " }}}
 
 " Searching {{{
@@ -83,15 +92,6 @@ set ignorecase
 set smartcase
 " }}}
 
-" Splits {{{
-" Easy split navigation
-nnoremap <C-H> <C-W>h
-nnoremap <C-J> <C-W>j
-nnoremap <C-K> <C-W>k
-nnoremap <C-L> <C-W>l
-
-" Pressing <Tab> moves the cursor to the next split
-nnoremap <Tab> <C-W><C-W>
 
 " Natural split opening
 set splitbelow
