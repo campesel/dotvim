@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Remove symlink
+# Remove symlinks
 rm $HOME/.vimrc
-
-# Remove ~/.vim/
-rm -rf $HOME/.vim/
+rm $HOME/.vim
 
 # Remove repository
 rm -rf $HOME/.dotvim/
