@@ -101,6 +101,9 @@ set smartcase
 " Spelling {{{
 " Use British English and Italian for spell checking
 set spelllang=en_gb,it
+
+" Add non-recognised words to 'spellfile'
+set spellfile=$HOME/.vim/spell/all.utf-8.add
 " }}}
 
 " Splits {{{
