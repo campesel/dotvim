@@ -99,8 +99,8 @@ set smartcase
 " }}}
 
 " Spelling {{{
-" Use British English for spell checking
-set spelllang=en_gb
+" Use British English and Italian for spell checking
+set spelllang=en_gb,it
 " }}}
 
 " Splits {{{
