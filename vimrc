@@ -44,6 +44,13 @@ set textwidth=80
 " }}}
 
 " Layout {{{
+" Remove widgets
+if has('gui_running')
+    set guioptions-=T
+    set guioptions-=r
+    set guioptions-=L
+endif
+
 " Display line numbers
 set number
 
