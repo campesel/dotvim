@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'bling/vim-bufferline'
 Plugin 'jnurmine/Zenburn'
 
 " Required
@@ -23,6 +24,9 @@ filetype plugin indent on
 " Source {{{
 " Load mappings
 source $HOME/.vim/mappings.vim
+
+" Configure plugins
+source $HOME/.vim/plugins.vim
 " }}}
 
 " Colours {{{
