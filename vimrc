@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jnurmine/Zenburn'
 
 " Required
@@ -30,6 +31,9 @@ syntax on
 
 " Use custom colour scheme
 colorscheme zenburn
+
+" Set vim-airline theme
+let g:airline_theme='zenburn'
 " }}}
 
 " Editing {{{
