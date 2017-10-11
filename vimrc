@@ -11,15 +11,18 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'bling/vim-bufferline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'jnurmine/Zenburn'
+
+if has('gui_running')
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'jnurmine/Zenburn'
+endif
 
 " Required
 call vundle#end()
@@ -37,12 +40,6 @@ source $HOME/.vim/plugins.vim
 " Colours {{{
 " Enable syntax highlighting
 syntax on
-
-" Use custom colour scheme
-colorscheme zenburn
-
-" Set vim-airline theme
-let g:airline_theme='zenburn'
 " }}}
 
 " Editing {{{
@@ -57,13 +54,6 @@ set textwidth=80
 " }}}
 
 " Layout {{{
-" Remove widgets
-if has('gui_running')
-    set guioptions-=T
-    set guioptions-=r
-    set guioptions-=L
-endif
-
 " Display line numbers
 set number
 
