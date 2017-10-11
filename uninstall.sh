@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# TODO: Remove fonts
-
 # Remove symlinks
 rm $HOME/.vimrc
+rm $HOME/.gvimrc
 rm $HOME/.vim
 
 # Remove repository
