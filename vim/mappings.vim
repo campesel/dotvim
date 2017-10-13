@@ -1,5 +1,5 @@
 " Set <Leader> to <Space>
-let mapleader=' '
+let mapleader = ' '
 
 " Switch to Normal mode by pressing j twice
 inoremap jj <Esc>
