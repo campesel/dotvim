@@ -19,3 +19,5 @@ rm -rf fonts/
 
 # Launch Vim
 vim +PluginInstall +qall
+
+# TODO: Install YouCompleteMe
