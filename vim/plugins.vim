@@ -4,6 +4,9 @@ let g:bufferline_echo = 0
 " nerdtree
 map <C-N> :NERDTreeToggle<CR>
 
+" nerdcommenter
+let g:NERDSpaceDelims = 1
+
 " syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
