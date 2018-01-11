@@ -11,19 +11,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
-Plugin 'bling/vim-bufferline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
-
-if has('gui_running')
-    Plugin 'vim-airline/vim-airline'
-    Plugin 'vim-airline/vim-airline-themes'
-    Plugin 'jnurmine/Zenburn'
-endif
+Plugin 'jnurmine/Zenburn'
 
 " Required
 call vundle#end()
@@ -41,6 +31,9 @@ source $HOME/.vim/plugins.vim
 " Colours {{{
 " Enable syntax highlighting
 syntax on
+
+" Set colorscheme
+colorscheme zenburn
 " }}}
 
 " Editing {{{

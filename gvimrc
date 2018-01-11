@@ -1,7 +1,3 @@
-" Colours {{{
-colorscheme zenburn
-" }}}
-
 " Layout {{{
 set guioptions-=T
 set guioptions-=r
