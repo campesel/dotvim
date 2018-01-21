@@ -1,0 +1,19 @@
+" A stripped-down version of my .vimrc used to configure IdeaVim.
+
+" Mappings {{{
+let mapleader = ' '
+
+inoremap jj <Esc>
+
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+
+nnoremap <Tab> <C-W><C-W>
+" }}}
+
+" Actions {{{
+nnoremap / :action Find<CR>
+nnoremap <Leader>u :action ShowUsages<CR>
+" }}}
