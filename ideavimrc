@@ -15,5 +15,6 @@ nnoremap <Tab> <C-W><C-W>
 
 " Actions {{{
 nnoremap / :action Find<CR>
+nnoremap <Leader>f :action ReformatCode<CR>
 nnoremap <Leader>u :action ShowUsages<CR>
 " }}}
