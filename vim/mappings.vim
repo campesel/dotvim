@@ -15,3 +15,6 @@ nnoremap <Tab> <C-W><C-W>
 
 " Toggle spell checking on and off
 nnoremap <silent> <Leader>s :set spell!<CR>
+
+" Format current paragraph
+nnoremap <Leader>p {gq}
