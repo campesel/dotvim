@@ -28,26 +28,13 @@ source $HOME/.vim/mappings.vim
 source $HOME/.vim/plugins.vim
 " }}}
 
-" Colours {{{
+" Appearance {{{
 " Enable syntax highlighting
 syntax on
 
 " Set colorscheme
 colorscheme zenburn
-" }}}
 
-" Editing {{{
-" Allow buffer switching without saving
-set hidden
-
-" Backspace works like you expect it to work
-set backspace=indent,eol,start
-
-" Wrap lines longer than 80 characters
-set textwidth=80
-" }}}
-
-" Layout {{{
 " Display line numbers
 set number
 
@@ -63,6 +50,10 @@ set showmatch
 " Show where the cursor is
 set ruler
 
+" Show whitespace characters
+set listchars=eol:$,trail:~
+set list
+
 " Always display status line
 set laststatus=2
 
@@ -71,9 +62,24 @@ set cmdheight=2
 
 " Show command being typed
 set showcmd
+" }}}
+
+" Behaviour {{{
+" Allow buffer switching without saving
+set hidden
+
+" Backspace works like you expect it to work
+set backspace=indent,eol,start
+
+" Wrap lines longer than 80 characters
+set textwidth=80
 
 " Better command-line completion
 set wildmenu
+
+" Natural split opening
+set splitbelow
+set splitright
 " }}}
 
 " Searching {{{
@@ -93,12 +99,6 @@ set spelllang=en_gb,it
 
 " Add non-recognised words to 'spellfile'
 set spellfile=$HOME/.vim/spell/all.utf-8.add
-" }}}
-
-" Splits {{{
-" Natural split opening
-set splitbelow
-set splitright
 " }}}
 
 " Tabs {{{

@@ -1,6 +1,6 @@
 " A stripped-down version of my .vimrc used to configure Vrapper.
 
-" Layout {{{
+" Appearance {{{
 " Display line numbers
 set number
 
