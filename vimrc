@@ -51,7 +51,7 @@ set showmatch
 set ruler
 
 " Show whitespace characters
-set listchars=eol:$,trail:~
+set listchars=tab:\|\ ,trail:~,eol:$
 set list
 
 " Always display status line
